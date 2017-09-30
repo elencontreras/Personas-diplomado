@@ -4,7 +4,15 @@
     <string name="nombre">Nombre</string>
     <string name="cedula">Cedula</string>
     <string name="apellido">Apellido</string>
-    <string name="crearPersona">Crear Persona</string>
+    <string name="crearPersona">CREAR PERSONA</string>
     <string name="guardar">Guardar</string>
     <string name="limpiar">Limpiar</string>
+    <string name="msjGuardar">Persona guardada exitosamente</string>
+    <string name="crear_persona">Crear Persona</string>
+    <string name="listar_persona">listar Persona</string>
+    <string-array name="opciones">
+        <item>@string/crear_persona</item>
+        <item>@string/listar_persona</item>
+    </string-array>
+
 </resources>
