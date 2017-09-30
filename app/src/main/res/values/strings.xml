@@ -10,9 +10,19 @@
     <string name="msjGuardar">Persona guardada exitosamente</string>
     <string name="crear_persona">Crear Persona</string>
     <string name="listar_persona">listar Persona</string>
+    <string name="sexo">Sexo</string>
+    <string name="femenino">Femenino</string>
+    <string name="masculino">Masulino</string>
+    <string name="cantidad_mujeres">Cantidad Mujeres</string>
     <string-array name="opciones">
         <item>@string/crear_persona</item>
         <item>@string/listar_persona</item>
+        <item>@string/cantidad_mujeres</item>
+
+    </string-array>
+    <string-array name="opcSexo">
+        <item>@string/femenino</item>
+        <item>@string/masculino</item>
     </string-array>
 
 </resources>

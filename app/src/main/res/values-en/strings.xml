@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personas</string>
+    <string name="apellido">Last name</string>
+    <string name="cedula">Id</string>
+    <string name="crearPersona">CREATE PERSON</string>
+    <string name="crear_persona">Create Person</string>
+    <string name="femenino">Female</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clean</string>
+    <string name="listar_persona">List People</string>
+    <string name="masculino">Male</string>
+    <string name="msjGuardar">Person saved succesfully</string>
+    <string name="no">No</string>
+    <string name="nombre">Name</string>
+    <string name="sexo">Gender</string>
+</resources>

@@ -16,6 +16,7 @@ public class Listado extends AppCompatActivity {
 
     private TableLayout tabla;
     private ArrayList<Persona> personas;
+    private String [] sexo;
     private Resources res;
 
     @Override
@@ -23,8 +24,12 @@ public class Listado extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listado);
 
+        res=this.getResources();
+
+
         tabla = (TableLayout)findViewById(R.id.tblListado);
         personas = Datos.obtenerPersona();
+        sexo =res.getStringArray(R.array.opcSexo);
 
         for (int i = 0; i < personas.size(); i++) {
             TableRow fila = new TableRow(this);
@@ -32,16 +37,19 @@ public class Listado extends AppCompatActivity {
             TextView c2 = new TextView(this);
             TextView c3 = new TextView(this);
             TextView c4 = new TextView(this);
+            TextView c5 = new TextView(this);
 
             c1.setText(""+(i+1));
             c2.setText(personas.get(i).getCedula());
             c3.setText(personas.get(i).getNombre());
             c4.setText(personas.get(i).getApellido());
+            c5.setText(sexo[personas.get(i).getSexo()]);
 
             fila.addView(c1);
             fila.addView(c2);
             fila.addView(c3);
             fila.addView(c4);
+            fila.addView(c5);
 
             tabla.addView(fila);
 
