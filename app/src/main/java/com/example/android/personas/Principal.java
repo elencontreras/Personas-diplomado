@@ -28,6 +28,7 @@ public class Principal extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, opc);
         lstopciones.setAdapter(adapter);
 
+
         lstopciones.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int pos, long l) {
@@ -43,6 +44,5 @@ public class Principal extends AppCompatActivity {
                 }
             }
         });
-
     }
 }

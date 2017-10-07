@@ -14,10 +14,14 @@
     <string name="femenino">Femenino</string>
     <string name="masculino">Masulino</string>
     <string name="cantidad_mujeres">Cantidad Mujeres</string>
+    <string name="listado_listview">Listado Persona Listview</string>
+
     <string-array name="opciones">
         <item>@string/crear_persona</item>
         <item>@string/listar_persona</item>
         <item>@string/cantidad_mujeres</item>
+        <item>@string/listado_listview</item>
+
 
     </string-array>
     <string-array name="opcSexo">
